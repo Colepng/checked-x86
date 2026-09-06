@@ -1,0 +1,13 @@
+[package]
+name = "checked-x86"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+flux-rs = { path = "/home/cole/Documents/Projects/flux/lib/flux-rs/" }
+flux-core = { path = "/home/cole/Documents/Projects/flux/lib/flux-core" }
+flux-alloc = { path = "/home/cole/Documents/Projects/flux/lib/flux-alloc/" }
+paste = "1.0.15"
+
+[package.metadata.flux]
+enabled = true
